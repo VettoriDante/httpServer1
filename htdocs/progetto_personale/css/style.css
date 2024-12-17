@@ -1,0 +1,118 @@
+/*  FONT  */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap'); /* font-family: 'Bungee Shade', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');   /* font-family: 'Righteous', cursive; */
+/* sfondi personalizzati */
+.bg-personale{
+    background-image: url("../images/cambion-drift.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bg-warframe{
+    background-image: url("../images/bg-war.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.bg-mine{
+    background-color: rgb(18, 18, 18);
+}
+
+/* super font */
+.fs-s{
+    font-size: 6vw;
+}
+
+.testo-3{
+    font-family: 'Bungee Shade', cursive;
+}
+
+.testo-forma{
+    font-family: 'Righteous', cursive;
+}
+
+
+/* colori extra */
+.color-p{
+    color: #8b0eff !important;
+}
+
+.color-az{
+    color: #086084;
+}
+
+.bg-viola,.btn-sel{
+    background-color: #8b0eff;
+}
+
+/* btn personali viola */
+.btn-sel{
+    border: 0px;
+    padding: 0.8%;
+}
+
+.btn-sel:hover{
+    background-color: #8b0effb6;
+}
+
+/* bottoni personalizzati blu scuro */
+.btn-dark-blue{
+    background-color: #0f0872;
+    color: white;
+}
+
+.btn-dark-blue :hover{
+    background-color: #0f0872b0;
+}
+
+/*bordo del logo in testa alla index*/
+.border-logo{
+    border-radius: 200px;
+}
+/*colore background a tema usato per la navbar*/
+.bg-logo{
+    background-color: #086084;
+}
+
+/*responsive delle lettere in ogni ambito essenziale*/
+
+p{
+    color: white;
+}
+
+/* invisibile */
+.speciale p{
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.speciale:hover p{
+    transition: 0.5s;
+    opacity: 1;
+}
+
+/* margin per nav */
+.mt-ex{
+    margin-top: 60px;
+}
+
+#iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.copertine{
+    width: 100px;
+}
+
