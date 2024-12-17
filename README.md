@@ -6,3 +6,5 @@ Intestazioni importanti =>
 * Content-Lenght: indica la lunghezza del messaggio
 * User-Agent: viene indicato il browser di partenza
 * Host: indica la provenienza del pacchetto
+
+## ToDo => remove target (add gitignore)
